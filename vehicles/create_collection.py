@@ -13,6 +13,12 @@ collection.add(
         'buses use road transport'
     ],
     ids=['plane','car','boat','bus'],
+    metadatas=[
+        {'type':'air_transport', 'fuel':'jet fuel'},
+        {'type':'private_transport', 'fuel':'petrol'},
+        {'type':'water_transport', 'fuel':'petrol'},
+        {'type':'public_transport', 'fuel':'diesel'},
+    ]
 
 )
 
