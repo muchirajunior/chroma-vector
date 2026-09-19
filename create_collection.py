@@ -2,7 +2,7 @@ import chromadb
 
 client = chromadb.PersistentClient(path='./chroma_db')
 
-collection =  client.create_collection('vehicles')
+collection =  client.get_or_create_collection('vehicles')
 
 #add data
 collection.add(
